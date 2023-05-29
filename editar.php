@@ -1,3 +1,4 @@
+<?php
 $endereco = $_POST['Endereco'];
 
 $receber_pedido = "UPDATE livraria 
