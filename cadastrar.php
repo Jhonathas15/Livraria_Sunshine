@@ -10,7 +10,7 @@ $endereco = $_POST['Endereco'];
 $receber_pedido = "INSERT INTO livraria 
 VALUES ('', '$nome', '$numero', '$cidade', '$endereco' )";
  
-$cadastrar = mysqli_query($con, $buscar);
+$cadstrar = mysqli_query($con, $buscar);
 
 header('location:listar.php'); 
 
